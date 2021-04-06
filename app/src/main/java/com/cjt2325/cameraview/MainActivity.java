@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         jCameraView = (JCameraView) findViewById(R.id.jcameraview);
 
         //设置视频保存路径
